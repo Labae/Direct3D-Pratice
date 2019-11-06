@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{b105a904-8fc3-40b2-b82b-4ac2d3eb2629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Define">
+      <UniqueIdentifier>{ecb212af-d6cc-4907-8ce6-1399e1fd9523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader File">
+      <UniqueIdentifier>{18291a5f-88db-47a8-8769-1c577ef82d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics">
+      <UniqueIdentifier>{62c78fd1-105e-42fd-a32e-8b1429c2d075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics">
+      <UniqueIdentifier>{538c8f2d-99fe-47e5-8a96-d7084ad2c342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics\Shader">
+      <UniqueIdentifier>{75cbcb48-7162-4185-8b30-68b00bb72524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics\Shader">
+      <UniqueIdentifier>{930daa47-e42a-42d6-95c9-1764008de7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FPS,CPU,Time">
+      <UniqueIdentifier>{0d864fd9-32b0-4485-aec7-f1abec6fcb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FPS,CPU,Time">
+      <UniqueIdentifier>{d72b68c7-93ba-4013-8c57-87ef023a0641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sound">
+      <UniqueIdentifier>{cefcaa74-e26c-4d8a-9663-84d50d7d0a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{ec23fe6a-af5a-4428-8560-70bbc888ae58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics\Text">
+      <UniqueIdentifier>{878860b6-b410-4591-8cd2-4a708e91a1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics\Text">
+      <UniqueIdentifier>{cbca9761-7f91-43a0-abce-30647897ae1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Frustum">
+      <UniqueIdentifier>{ccdb3c73-3e90-4404-9ce6-44b4364f9152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Frustum">
+      <UniqueIdentifier>{04065a2e-097b-4eb4-b6d4-b9a5cd587f52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="systemClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="inputClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>헤더 파일\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="dxDefine.h">
+      <Filter>헤더 파일\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="modelClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="colorShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="textureShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="lightShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="lightClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="fontShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsClass.h">
+      <Filter>헤더 파일\FPS,CPU,Time</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuClass.h">
+      <Filter>헤더 파일\FPS,CPU,Time</Filter>
+    </ClInclude>
+    <ClInclude Include="timeClass.h">
+      <Filter>헤더 파일\FPS,CPU,Time</Filter>
+    </ClInclude>
+    <ClInclude Include="soundClass.h">
+      <Filter>헤더 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="textClass.h">
+      <Filter>헤더 파일\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="fontClass.h">
+      <Filter>헤더 파일\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="frustumClass.h">
+      <Filter>헤더 파일\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="modelListClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="positionClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="multiTextureShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="textureArrayClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="textureClass.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="bumpMapShaderClass.h">
+      <Filter>헤더 파일\Graphics\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="systemClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inputClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="modelClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="textureClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="textureShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="colorShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="lightShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="lightClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="fontShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsClass.cpp">
+      <Filter>소스 파일\FPS,CPU,Time</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuClass.cpp">
+      <Filter>소스 파일\FPS,CPU,Time</Filter>
+    </ClCompile>
+    <ClCompile Include="timeClass.cpp">
+      <Filter>소스 파일\FPS,CPU,Time</Filter>
+    </ClCompile>
+    <ClCompile Include="soundClass.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="fontClass.cpp">
+      <Filter>소스 파일\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="textClass.cpp">
+      <Filter>소스 파일\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="frustumClass.cpp">
+      <Filter>소스 파일\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="modelListClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="positionClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="multiTextureShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="textureArrayClass.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="bumpMapShaderClass.cpp">
+      <Filter>소스 파일\Graphics\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\light.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\light.vs">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\font.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\font.vs">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\multiTexture.vs">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\multiTexture.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\bumpMap.ps">
+      <Filter>Shader File</Filter>
+    </None>
+    <None Include="Shaders\bumpMap.vs">
+      <Filter>Shader File</Filter>
+    </None>
+  </ItemGroup>
+</Project>
